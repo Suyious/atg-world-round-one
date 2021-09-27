@@ -1,0 +1,8 @@
+.post_card{
+    margin-top: 1em;
+}
+
+.post_card_img.card-img-top{
+    height: 13em;
+    object-fit: cover;
+}

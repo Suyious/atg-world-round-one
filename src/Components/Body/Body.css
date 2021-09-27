@@ -1,0 +1,58 @@
+.sub_navigation{
+    border-bottom: 2px solid #E0E0E0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    position: sticky;
+    top: 4em;
+    z-index: 2;
+}
+
+.sub_navigation .nav-link{
+    color: #8A8A8A;
+    padding: 1em;
+    border-bottom: 2px solid transparent;
+}
+.sub_navigation .nav-link.active{
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+.sub_nav_buttons{
+    display: flex;
+    align-items: center;
+}
+
+.sub_nav_button button{
+    height: 47px;
+}
+
+.sub_nav_button button,
+.sub_nav_button button:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.sub_nav_button{
+    width: auto;
+    margin-left: 1em;
+}
+
+.sub_nav_button.dropdown button.dropdown-toggle,
+.sub_nav_button.dropdown button.dropdown-toggle:focus{
+    background: #EDEEF0;
+    color: #000;
+    box-shadow: none;
+}
+
+.sub_nav_button.join_group button{
+    padding: 0.5em 1em;
+    background: #2F6CE5;
+    font-size: 1em;
+}
+
+.body_section{
+    display: flex;
+}

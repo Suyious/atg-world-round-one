@@ -1,0 +1,30 @@
+.header_card{
+	border: none;
+	margin-top: 4em;
+}
+
+.header_card .card-img{
+	height: 30em;
+	object-fit: cover;
+}
+
+.header_card_overlay{
+	display: flex;
+    align-items: flex-end;
+	font-family: IBM Plex Sans;
+}
+
+.header_card_overlay .card-title{
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.header_card_overlay .card-text{
+	font-weight: 400;
+}
+
+.header_card_overlay .container{
+	margin-bottom: 3em;
+}
+
+
