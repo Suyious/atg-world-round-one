@@ -1,0 +1,75 @@
+.modal_body {
+  display: flex;
+  font-family: IBM Plex Sans;
+}
+
+
+.modal_alert {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.modal_body_div{
+  padding: 0 1em;
+}
+
+.modal_auth_title {
+  font-weight: 700;
+}
+
+.modal_body .form-control:focus{
+  box-shadow: none;
+}
+
+.modal_body .form-control {
+  border-radius: 0;
+  font-size: 0.8em;
+  font-weight: 500;
+  padding: 1em;
+  background: #F7F8FA;
+}
+
+
+.modal_right_text.text_top{
+  font-size: 0.8em;
+  text-align: right;
+  font-weight: 400;
+  color: #3D3D3D;
+}
+.modal_right_text.text_bottom{
+  font-size: 0.7em;
+}
+
+.auth_switch {
+  color: #2f6ce5;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.no_border_bottom {
+  border-bottom: none;
+}
+.no_border_left {
+  border-left: none;
+}
+.no_border_right {
+  border-right: none;
+}
+.no_border_top {
+  border-top: none;
+}
+.no_padding_right {
+  padding-right: 0;
+}
+.no_padding_left {
+  padding-left: 0;
+}
+
+.modal_button {
+  margin-top: 1em;
+  width: 100%;
+  border-radius: 30px;
+  font-size: 0.8em;
+  font-weight: 600;
+  padding: 0.7em;
+}

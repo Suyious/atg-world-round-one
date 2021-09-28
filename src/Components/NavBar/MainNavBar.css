@@ -37,21 +37,16 @@
 .search_bar {
   padding: 0.3em 1em;
   border-radius: 20px;
-}
-
-.search_bar,
-.form-control,
-.form-control:focus {
   background: #f2f2f2;
 }
 
-.form-control,
-.form-control:focus {
+.search_bar .form-control,
+.search_bar .form-control:focus {
+  background: #f2f2f2;
   outline: none;
   border: none;
   box-shadow: none;
   font-family: IBM Plex Sans;
-  font-style: normal;
   font-weight: 500;
   font-size: 0.8em;
   width: 25em;

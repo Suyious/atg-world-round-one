@@ -2,7 +2,7 @@ import { Container, Form, FormControl, Navbar,  Dropdown} from 'react-bootstrap'
 import MainLogo from "../../assets/whole.png"
 import "./MainNavBar.css"
 
-const MainNavbar = () => {
+const MainNavbar = ({setOpenModal}) => {
 
   return(
     <>
@@ -26,10 +26,10 @@ const MainNavbar = () => {
             </div>
             <div className="dropdown_wrapper">
               <Dropdown className="collapse_component">
-                <Dropdown.Toggle variant="none">Create account. <span class="dropdown_span">It’s free!</span></Dropdown.Toggle>
+                <Dropdown.Toggle variant="none">Create account. <span className="dropdown_span">It’s free!</span></Dropdown.Toggle>
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">Log-In</Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">Sign-Up</Dropdown.Item>
+                  <Dropdown.Item onClick={()=>setOpenModal(true)} href="#/action-2">Sign-Up</Dropdown.Item>
+                  <Dropdown.Item onClick={()=>setOpenModal(true)} href="#/action-1">Log-In</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
             </div>

@@ -1,13 +1,12 @@
 import PostCard from "./PostCard/PostCard"
-import CardImg1 from "../../../assets/CardImg1.jpg"
+import PostsList from "../../../data/postDb"
 
 const Posts = () => {
     return (
         <div className="Posts">
-            <PostCard image={CardImg1}/>
-            <PostCard image={CardImg1}/>
-            <PostCard image={CardImg1}/>
-            <PostCard image={CardImg1}/>
+            {PostsList.map((post)=>(
+                <PostCard key={post.id} {...post}/>
+            ))}
         </div >
     )
 }
