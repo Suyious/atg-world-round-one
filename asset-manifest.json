@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/atg-world-round-one/static/css/main.9d432074.chunk.css",
-    "main.js": "/atg-world-round-one/static/js/main.0b5bf0ea.chunk.js",
-    "main.js.map": "/atg-world-round-one/static/js/main.0b5bf0ea.chunk.js.map",
+    "main.css": "/atg-world-round-one/static/css/main.37ca97df.chunk.css",
+    "main.js": "/atg-world-round-one/static/js/main.ad59f5f8.chunk.js",
+    "main.js.map": "/atg-world-round-one/static/js/main.ad59f5f8.chunk.js.map",
     "runtime-main.js": "/atg-world-round-one/static/js/runtime-main.3cb61cd5.js",
     "runtime-main.js.map": "/atg-world-round-one/static/js/runtime-main.3cb61cd5.js.map",
     "static/css/2.28bb0c3d.chunk.css": "/atg-world-round-one/static/css/2.28bb0c3d.chunk.css",
-    "static/js/2.2fcaf409.chunk.js": "/atg-world-round-one/static/js/2.2fcaf409.chunk.js",
-    "static/js/2.2fcaf409.chunk.js.map": "/atg-world-round-one/static/js/2.2fcaf409.chunk.js.map",
+    "static/js/2.a880d17a.chunk.js": "/atg-world-round-one/static/js/2.a880d17a.chunk.js",
+    "static/js/2.a880d17a.chunk.js.map": "/atg-world-round-one/static/js/2.a880d17a.chunk.js.map",
     "static/js/3.b5c590fc.chunk.js": "/atg-world-round-one/static/js/3.b5c590fc.chunk.js",
     "static/js/3.b5c590fc.chunk.js.map": "/atg-world-round-one/static/js/3.b5c590fc.chunk.js.map",
     "index.html": "/atg-world-round-one/index.html",
     "static/css/2.28bb0c3d.chunk.css.map": "/atg-world-round-one/static/css/2.28bb0c3d.chunk.css.map",
-    "static/css/main.9d432074.chunk.css.map": "/atg-world-round-one/static/css/main.9d432074.chunk.css.map",
-    "static/js/2.2fcaf409.chunk.js.LICENSE.txt": "/atg-world-round-one/static/js/2.2fcaf409.chunk.js.LICENSE.txt",
+    "static/css/main.37ca97df.chunk.css.map": "/atg-world-round-one/static/css/main.37ca97df.chunk.css.map",
+    "static/js/2.a880d17a.chunk.js.LICENSE.txt": "/atg-world-round-one/static/js/2.a880d17a.chunk.js.LICENSE.txt",
     "static/media/HeaderImg.5f585f34.png": "/atg-world-round-one/static/media/HeaderImg.5f585f34.png",
     "static/media/Illustration.b9ce508d.png": "/atg-world-round-one/static/media/Illustration.b9ce508d.png",
     "static/media/PosttImg1.09981740.jpg": "/atg-world-round-one/static/media/PosttImg1.09981740.jpg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.3cb61cd5.js",
     "static/css/2.28bb0c3d.chunk.css",
-    "static/js/2.2fcaf409.chunk.js",
-    "static/css/main.9d432074.chunk.css",
-    "static/js/main.0b5bf0ea.chunk.js"
+    "static/js/2.a880d17a.chunk.js",
+    "static/css/main.37ca97df.chunk.css",
+    "static/js/main.ad59f5f8.chunk.js"
   ]
 }
