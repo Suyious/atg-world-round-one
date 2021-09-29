@@ -6,6 +6,7 @@ import Body from "./Components/Body/Body";
 import Posts from "./Components/Body/Posts/Posts";
 import Modal from "./Components/Modal/Modal";
 import { useState } from "react";
+import MobileNav from "./Components/NavBar/MobileNav";
 
 function App() {
   const [loginStatus, setLoginStatus] = useState(false);
@@ -22,7 +23,8 @@ function App() {
         loginStatus={loginStatus}
         setLoginStatus={setLoginStatus}
       />
-      <Header />
+      <MobileNav setOpenModal={setOpenModal} groupJoin={groupJoin} setGroupJoin={setGroupJoin} loginStatus={loginStatus}/>
+      <Header/>
       <Body
         setOpenModal={setOpenModal}
         groupJoin={groupJoin}

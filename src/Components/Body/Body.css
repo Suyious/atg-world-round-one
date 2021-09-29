@@ -11,10 +11,11 @@
     display: flex;
     justify-content: space-between;
     background: #fff;
+    border-bottom: 2px solid #E0E0E0; 
 }
 
 .sub_navigation.non_mobile{
-    border-bottom: 2px solid #E0E0E0; 
+    border-bottom: 1px solid #E0E0E0;
 }
 
 .sticky{
@@ -27,11 +28,11 @@
     .sub_navigation.non_mobile{
         display: none;
     }
-    .sticky{
-        top: 3.5em;
-    }
     .body_section{
         justify-content: center;
+    }
+    .sticky{
+        top: 3.4em;
     }
 }
 

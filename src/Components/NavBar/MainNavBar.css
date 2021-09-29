@@ -71,3 +71,33 @@ button.dropdown-toggle:focus {
   height: auto;
   margin-right: 1em;
 }
+
+/* Mobile Nav Bar */
+
+.mobile_nav {
+  position: absolute;
+  top: 5em;
+  z-index: 3;
+  width: 100vw;
+}
+
+.mobile_nav_wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2em 0 1em;
+}
+
+.mobile_nav svg{
+  cursor: pointer;
+}
+
+.mobile_nav button,
+.mobile_nav button:focus,
+.mobile_nav button:hover{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    color: #fff;
+    border: solid 0.8px #fff;
+}

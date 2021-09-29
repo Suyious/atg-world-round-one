@@ -30,8 +30,8 @@ const MainNavbar = ({setOpenModal, setModalLogin, loginStatus,setLoginStatus}) =
               {!loginStatus?<Dropdown className="collapse_component">
                 <Dropdown.Toggle variant="none">Create account. <span className="dropdown_span">It’s free!</span></Dropdown.Toggle>
                 <Dropdown.Menu>
-                  <Dropdown.Item onClick={()=>handleAuthSwitch(false)} href="#/action-2">Sign-Up</Dropdown.Item>
-                  <Dropdown.Item onClick={()=>handleAuthSwitch(true)} href="#/action-1">Log-In</Dropdown.Item>
+                  <Dropdown.Item onClick={()=>handleAuthSwitch(false)} href="#/action-2">Create Account</Dropdown.Item>
+                  <Dropdown.Item onClick={()=>handleAuthSwitch(true)} href="#/action-1">Sign-In</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>:
               <Dropdown className="collapse_component">
