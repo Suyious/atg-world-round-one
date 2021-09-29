@@ -34,4 +34,7 @@
 	.header_card_overlay .card-title{
 		font-size: 1.4em;
 	}	
+	.header_card_overlay .container{
+		margin-bottom: 2em;
+	}
 }

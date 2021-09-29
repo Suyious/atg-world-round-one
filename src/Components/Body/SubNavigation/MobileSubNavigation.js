@@ -1,11 +1,11 @@
-import { Button, ButtonGroup, Dropdown, DropdownButton, Nav } from "react-bootstrap";
+import { ButtonGroup, Dropdown, DropdownButton, Nav } from "react-bootstrap";
 
 const MobileSubNavigation = ({loginStatus, groupJoin, setOpenModal, setGroupJoin}) => {
     return (
         <div className="sub_navigation mobile">
-          <Nav defaultActiveKey="link-0" as="ul">
+          <Nav as="ul">
             <Nav.Item as="li">
-              <Nav.Link eventKey="link-0">All Posts(32)</Nav.Link>
+              <Nav.Link>All Posts(32)</Nav.Link>
             </Nav.Item>
           </Nav>
           <ButtonGroup className="sub_nav_buttons">
