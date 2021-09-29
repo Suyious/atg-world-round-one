@@ -2,7 +2,7 @@ import { Button, Col, Form, Row } from "react-bootstrap";
 import Facebook from "../../assets/facebook.png"
 import Google from "../../assets/google.png"
 
-const Signup = ({HandleLogin}) => {
+const Signup = ({HandleLogin, modalLogin, setModalLogin}) => {
   return (
     <div className="modal_signup">
       <h3 className="modal_auth_title">Create Account</h3>
@@ -29,7 +29,10 @@ const Signup = ({HandleLogin}) => {
           type="password"
           placeholder="Confirm Password"
         />
-        <Button onClick={()=>HandleLogin()} className="modal_button main">Create Account</Button>
+        <div className="button_group">
+          <Button onClick={()=>HandleLogin()} className="modal_button main">Create Account</Button>
+          <p onClick={() => setModalLogin(!modalLogin)} className="button_group_switch hide_on_mobile"> or, Sign In</p>
+        </div>
       </Form>
       <Button onClick={()=>HandleLogin()} className="modal_button sec" variant="outline-dark">
         <img src={Facebook} alt="facebook" />
@@ -37,6 +40,7 @@ const Signup = ({HandleLogin}) => {
       <Button onClick={()=>HandleLogin()} className="modal_button sec" variant="outline-dark">
         <img src={Google} alt="google" />
         &#160;&#160;Sign up with Google</Button>
+      <p className="text_bottom hide_on_mobile">By signing up, you agree to our Terms & conditions, Privacy policy</p>
     </div>
   );
 };

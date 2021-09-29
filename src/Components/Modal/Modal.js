@@ -15,8 +15,8 @@ const AuthModal = (props) => {
   }
 
   const AuthHandle = ({ status }) => {
-    if (status === true) return <Login HandleLogin={HandleLogin}/>;
-    if (status === false) return <Signup HandleLogin={HandleLogin}/>;
+    if (status === true) return <Login modalLogin={modalLogin} setModalLogin={setModalLogin} HandleLogin={HandleLogin}/>;
+    if (status === false) return <Signup modalLogin={modalLogin} setModalLogin={setModalLogin} HandleLogin={HandleLogin}/>;
   };
 
   return (

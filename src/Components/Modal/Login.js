@@ -2,7 +2,7 @@ import { Button, Form } from "react-bootstrap";
 import Facebook from "../../assets/facebook.png"
 import Google from "../../assets/google.png"
 
-const Login = ({HandleLogin}) => {
+const Login = ({HandleLogin, modalLogin, setModalLogin}) => {
   return (
     <div className="modal_login">
       <h3 className="modal_auth_title">Sign In</h3>
@@ -16,7 +16,10 @@ const Login = ({HandleLogin}) => {
           type="password"
           placeholder="Password"
         />
-        <Button onClick={()=>HandleLogin()} className="modal_button main">Sign In</Button>
+        <div className="button_group">
+          <Button onClick={()=>HandleLogin()} className="modal_button main">Sign In</Button>
+          <p onClick={() => setModalLogin(!modalLogin)} className="button_group_switch hide_on_mobile"> or, Create Account</p>
+        </div>
       </Form>
       <Button onClick={()=>HandleLogin()} className="modal_button sec" variant="outline-dark">
         <img src={Facebook} alt="facebook" />
@@ -24,6 +27,7 @@ const Login = ({HandleLogin}) => {
       <Button onClick={()=>HandleLogin()} className="modal_button sec" variant="outline-dark">
         <img src={Google} alt="google" />
         &#160;&#160;Sign up with Google</Button>
+      <p className="text_bottom forgot_password">Forgot Password?</p>
     </div>
   );
 };

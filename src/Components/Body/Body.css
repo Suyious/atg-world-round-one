@@ -1,3 +1,16 @@
+@media (max-width: 768px){
+    .body_container{
+        max-width: 90vw;
+        padding: 0;
+    }
+}
+
+@media (max-width: 600px){
+    .body_section{
+        justify-content: center;
+    }
+}
+
 .sub_navigation{
     border-bottom: 2px solid #E0E0E0;
     padding: 0;
@@ -11,6 +24,23 @@
     top: 4.5em;
     z-index: 2;
 }
+
+@media (max-width: 1200px){
+    .sub_navigation.non_mobile{
+        display: none;
+    }
+    .sticky{
+        top: 3.5em;
+    }
+}
+
+@media (min-width: 1200px){
+    .sub_navigation.mobile{
+        display: none;
+        margin: 0 auto;
+    }
+}
+
 
 .sub_navigation .nav-link{
     color: #8A8A8A;

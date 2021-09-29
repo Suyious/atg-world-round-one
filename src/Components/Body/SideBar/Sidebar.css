@@ -4,6 +4,12 @@
     font-family: IBM Plex Sans;
 }
 
+@media (max-width: 1200px){
+    .Sidebar{
+        display: none;
+    }
+}
+
 .location_input{
     margin-top: 2em;
     border-bottom: 1px solid #B8B8B8;

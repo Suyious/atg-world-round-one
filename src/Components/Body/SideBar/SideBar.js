@@ -7,18 +7,22 @@ import RecomImg4 from "../../../assets/RecomImg4.jpg"
 
 const Recommendations = [
 	{
+		id: 1,
 		group_name: "Leisure",
 		image: RecomImg1
 	},
 	{
+		id: 2,
 		group_name: "Activism",
 		image: RecomImg2
 	},
 	{
+		id: 3,
 		group_name: "MBA",
 		image: RecomImg3
 	},
 	{
+		id: 4,
 		group_name: "Philosophy",
 		image: RecomImg4
 	},
@@ -29,7 +33,7 @@ const SideBar = () => {
         <div className="Sidebar">
             <Form className="collapse_component location_input d-flex align-items-center">
 							<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 1.5C6.0975 1.5 3.75 3.8475 3.75 6.75C3.75 10.6875 9 16.5 9 16.5C9 16.5 14.25 10.6875 14.25 6.75C14.25 3.8475 11.9025 1.5 9 1.5ZM5.25 6.75C5.25 4.68 6.93 3 9 3C11.07 3 12.75 4.68 12.75 6.75C12.75 8.91 10.59 12.1425 9 14.16C7.44 12.1575 5.25 8.8875 5.25 6.75Z" fill="black"/><path d="M9 8.625C10.0355 8.625 10.875 7.78553 10.875 6.75C10.875 5.71447 10.0355 4.875 9 4.875C7.96447 4.875 7.125 5.71447 7.125 6.75C7.125 7.78553 7.96447 8.625 9 8.625Z" fill="black"/></svg>	
-							<FormControl placeholder="Enter Your Location" className="mr-2" aria-label="Search" value="Noida, India"/>
+							<FormControl placeholder="Enter Your Location" className="mr-2" aria-label="Search"/>
 							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 14.375V17.5H5.625L14.8417 8.28334L11.7167 5.15834L2.5 14.375ZM17.2583 5.86667C17.5833 5.54167 17.5833 5.01667 17.2583 4.69167L15.3083 2.74167C14.9833 2.41667 14.4583 2.41667 14.1333 2.74167L12.6083 4.26667L15.7333 7.39167L17.2583 5.86667Z" fill="black"/></svg>
             </Form>
 						<div className="sidebar_alert">
@@ -41,8 +45,8 @@ const SideBar = () => {
 								<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.3" d="M15.75 9V7.5H9L10.005 3.495L6.75 6.75V14.25H13.5L15.75 9Z" fill="black"/><path d="M6.75 15.75H13.5C14.1225 15.75 14.655 15.375 14.88 14.835L17.145 9.5475C17.2125 9.375 17.25 9.195 17.25 9V7.5C17.25 6.675 16.575 6 15.75 6H11.0175L11.73 2.5725L11.7525 2.3325C11.7525 2.025 11.625 1.74 11.4225 1.5375L10.6275 0.75L5.685 5.6925C5.415 5.9625 5.25 6.3375 5.25 6.75V14.25C5.25 15.075 5.925 15.75 6.75 15.75ZM6.75 6.75L10.005 3.495L9 7.5H15.75V9L13.5 14.25H6.75V6.75ZM0.75 6.75H3.75V15.75H0.75V6.75Z" fill="#B3B3B3"/></svg>
 								Recommended Groups
 							</div>
-							{Recommendations.map(({image, group_name})=>(
-								<div className="sidebar_group">
+							{Recommendations.map(({id, image, group_name})=>(
+								<div key={id }className="sidebar_group">
 									 <Image className="profile_image" src={image} roundedCircle/>
 									 <p>{group_name}</p>
 									 <button className="group_follow">Follow</button>
