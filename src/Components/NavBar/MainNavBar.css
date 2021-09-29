@@ -78,7 +78,7 @@ button.dropdown-toggle:focus {
   position: absolute;
   top: 5em;
   z-index: 3;
-  width: 100vw;
+  width: 95vw;
 }
 
 @media (min-width: 1200px){
@@ -90,7 +90,7 @@ button.dropdown-toggle:focus {
 .mobile_nav_wrapper{
   display: flex;
   justify-content: space-between;
-  padding: 0 2em 0 1em;
+  padding: 0 1em 0 1em;
 }
 
 .mobile_nav svg{

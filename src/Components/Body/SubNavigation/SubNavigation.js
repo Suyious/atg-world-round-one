@@ -22,8 +22,9 @@ const SubNavigation = ({loginStatus, groupJoin, setOpenModal, setGroupJoin}) => 
           </Nav>
           <ButtonGroup className="sub_nav_buttons">
             <DropdownButton className="sub_nav_button" title="Write a post">
-              <Dropdown.Item eventKey="1">Dropdown link</Dropdown.Item>
-              <Dropdown.Item eventKey="2">Dropdown link</Dropdown.Item>
+              <Dropdown.Item eventKey="1">Article</Dropdown.Item>
+              <Dropdown.Item eventKey="2">Picture</Dropdown.Item>
+              <Dropdown.Item eventKey="2">Meetup</Dropdown.Item>
             </DropdownButton>
             <div className="sub_nav_button join_group">
               {(!loginStatus || !groupJoin)?<Button className="join" onClick={loginStatus?()=>setGroupJoin(true):()=>setOpenModal(true)}>
