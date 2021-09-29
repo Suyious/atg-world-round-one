@@ -65,3 +65,9 @@ button.dropdown-toggle:focus {
 .dropdown_span {
   color: #2f6ce5;
 }
+
+.profile_image{
+  width: 36px;
+  height: auto;
+  margin-right: 1em;
+}

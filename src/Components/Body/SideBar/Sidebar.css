@@ -1,0 +1,72 @@
+.Sidebar{
+    width: 30%;
+    float: right;
+    font-family: IBM Plex Sans;
+}
+
+.location_input{
+    margin-top: 2em;
+    border-bottom: 1px solid #B8B8B8;
+}
+
+.location_input .form-control{
+    border: none;
+    border-radius: 0;
+}
+
+.location_input .form-control:focus{
+    box-shadow: none;
+  }
+
+.sidebar_alert{
+    margin-top: 2em;
+    display: flex;
+    font-size: 0.9em;
+    color: #808080;
+}
+
+.Sidebar svg{
+    width: 24px;
+    height: 24px;
+}
+
+.sidebar_alert svg,
+.sidebar_recommend_head svg{
+    margin-right: 1em;
+}
+
+.sidebar_recommend_head{
+    margin-top: 2em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar_group{
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar_group button{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    padding: 0.3em 1em;
+    border-radius: 20px;
+    background: #EDEEF0;  
+}
+
+.group_seemore{
+    margin-top: 2em;
+    text-align: right;
+    color: #2F6CE5;
+    font-size: 0.9em;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.sidebar_group p{
+    flex: 1;
+    margin: 0;
+}

@@ -3,19 +3,24 @@
   font-family: IBM Plex Sans;
 }
 
-
 .modal_alert {
   font-size: 0.8em;
   text-align: center;
 }
 
 .modal_body_div{
-  padding: 0 1em;
+  padding: 0 1em 1em 1em;
+}
+
+.modal_body_left{
+  width: 50%;
 }
 
 .modal_auth_title {
   font-weight: 700;
+  margin-bottom: 1em;
 }
+
 
 .modal_body .form-control:focus{
   box-shadow: none;
@@ -68,8 +73,32 @@
 .modal_button {
   margin-top: 1em;
   width: 100%;
-  border-radius: 30px;
   font-size: 0.8em;
-  font-weight: 600;
   padding: 0.7em;
+}
+
+.modal_button.main{
+  border-radius: 30px;
+  font-weight: 600;
+  background: #2F6CE5;
+}
+
+.modal_button.sec{
+  border: 1px solid #D9D9DB;
+}
+
+.modal_wrapper .modal-content{
+  position: relative;
+  border-radius: 10px;
+}
+
+.modal_wrapper .modal-dialog{
+  max-width: 900px;
+}
+
+.modal_cancel {
+  position: absolute;
+  top: -2em;
+  right: -1em;
+  cursor: pointer;
 }

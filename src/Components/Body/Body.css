@@ -4,8 +4,11 @@
     display: flex;
     justify-content: space-between;
     background: #fff;
+}
+
+.sticky{
     position: sticky;
-    top: 4em;
+    top: 4.5em;
     z-index: 2;
 }
 
@@ -35,7 +38,6 @@
     box-shadow: none;
 }
 
-
 .sub_nav_button{
     width: auto;
     margin-left: 1em;
@@ -62,6 +64,11 @@
     font-size: 1em;
 }
 
+.sub_nav_button.join_group button.leave{
+    background: transparent;
+    color: #6A6A6B;
+    border: solid 0.8px #989899;
+}
 .body_section{
     display: flex;
 }
