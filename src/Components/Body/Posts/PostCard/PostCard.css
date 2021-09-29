@@ -29,6 +29,13 @@
 .post_card_body_text{
     color: #5C5C5C;
     font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.post_card_employer {
+    max-width: 10em;
 }
 
 .post_card .card-title{
@@ -41,6 +48,9 @@
 
 .post_card_sub_detail>div{
     margin-right: 5em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 @media(max-width: 600px){
@@ -48,7 +58,11 @@
         margin-right: 2em;
         font-size: 0.9em;
     }
+    .post_card .card-title{
+        font-size: 1.1em;
+    }
 }
+
 .post_card_dropdown .dropdown-toggle::after{
     content: none;
 }

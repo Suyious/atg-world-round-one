@@ -27,4 +27,11 @@
 	margin-bottom: 3em;
 }
 
-
+@media (max-width: 600px){
+	.header_card .card-img{
+		height: 20em;
+	}
+	.header_card_overlay .card-title{
+		font-size: 1.4em;
+	}	
+}

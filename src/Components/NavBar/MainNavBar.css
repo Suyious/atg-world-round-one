@@ -2,7 +2,7 @@
   background: #fff;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 576px) {
   .nav_container {
     max-width: 90vw;
   }

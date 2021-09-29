@@ -8,7 +8,7 @@ const Header = () => {
       <Card className="header_card bg-dark text-white">
         <Card.Img src={HeaderImg} alt="Card Header" />
         <Card.ImgOverlay className="header_card_overlay">
-          <Container>
+          <Container className="body_container">
             <Card.Title>Computer Engineering</Card.Title>
             <Card.Text>
               142,765 Computer Engineers follow this
