@@ -81,6 +81,12 @@ button.dropdown-toggle:focus {
   width: 100vw;
 }
 
+@media (min-width: 1200px){
+  .mobile_nav{
+    display: none;
+  }
+}
+
 .mobile_nav_wrapper{
   display: flex;
   justify-content: space-between;
